@@ -2,7 +2,7 @@ module.exports = {
     botName: "NOVA",
     botTagline: "#1 CC Burner on Telegram ✅",
 
-    telegramBotToken: process.env.TG_TOKEN || "PUT_YOUR_BOT_TOKEN_HERE",
+    telegramBotToken: process.env.TG_TOKEN || "8959519162:AAHujZTeacMlNioh3LvqlvgWSSifHbg7oK4",
     authorisedUsers: (process.env.TG_USERS || "").split(",").filter(Boolean),
     adminUsers: (process.env.TG_ADMINS || "").split(",").filter(Boolean),
     adminNames: (process.env.TG_ADMIN_NAMES || "").split(",").filter(Boolean),
